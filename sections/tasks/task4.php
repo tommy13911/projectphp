@@ -10,7 +10,7 @@
     <label for="cf-message">Message:</label>
     <textarea name="cf-message" id="cf-message"></textarea>
     <button type="submit">Submit</button>
-</form>
+</form> 
     <div id="cf-result"></div>
 <script>
     document.getElementById('contact-form').addEventListener('submit', function(evt) {
