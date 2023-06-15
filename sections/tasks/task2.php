@@ -14,3 +14,4 @@ foreach($nums as $x){
     echo "</tr>";
 } 
 echo "</table>";
+ 
