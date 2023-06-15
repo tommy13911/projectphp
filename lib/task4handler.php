@@ -1,5 +1,5 @@
 <h2>Form result</h2>
-
+ 
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = isset($_POST['cf-name']) ? htmlspecialchars($_POST['cf-name']) : '';
