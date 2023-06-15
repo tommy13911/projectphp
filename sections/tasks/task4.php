@@ -1,6 +1,6 @@
 <h2>Working with forms</h2>
 
-<form id="contact-form" action="/projectphp/lib/task-4-handler.php" method="POST">
+<form id="contact-form" action="/projectphp/lib/task4handler.php" method="POST">
     <label for="cf-name">Name:</label>
     <input name="cf-name" id="cf-name" type="text" required>
     <label for="cf-email">Email:</label>
@@ -20,7 +20,7 @@
         const age   = document.getElementById('cf-age').value;
         const message   = document.getElementById('cf-message').value;
         if (name && email) {
-            fetch('/projectphp/lib/task-4-handler.php', {
+            fetch('/projectphp/lib/task4handler.php', {
                 method: 'POST',
                 body: new FormData(evt.target),
             })
