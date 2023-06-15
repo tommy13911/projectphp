@@ -4,7 +4,7 @@ $arr = [];
 for($i = 0;$i < 10;$i++){
     $arr[$i] = rand(-5, 5);
 }
-
+ 
 foreach($arr as $num){
     echo $num . " ";
 }
